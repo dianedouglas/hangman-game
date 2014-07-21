@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+ <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <title>HangMaaaaan</title>
+</head>
+<body>
+  <div class="container">
+    <div class="hangman-pic"></div>
+    <div class="correct-letters">
+      <p></p>
+    </div>
+    <div class="wrong-letters">
+      <p></p>
+    </div>
+    <form id="start-word">
+      <div class="form-group">
+        <label for="word">Enter a word to play with: </label>
+        <input type="text" class="form-control" id="word">
+      </div>
+      <button class="btn btn-info btn-lg" type="submit">Go!</button>
+    </form>
+    <form id="letter-guess">
+      <div class="form-group">
+        <label for="letter">guess a letter: </label>
+        <input type="text" class="form-control" id="letter">
+      </div>
+      <button class="btn btn-info btn-lg" type="submit">Go!</button>
+    </form>
+  </div>
+
+</body>
+</html>
